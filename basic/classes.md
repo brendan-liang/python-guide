@@ -10,7 +10,7 @@ In Python, there are two ways to define a class: using the keyword `class` or th
 
 When using the `class` keyword, we can open the declaration as follows, followed by the `__init__` function. 
 
-Functions in classes must always have the first argument be `self`, or discarded with `_`. This allows any function within a class to access properties that have been set, by calling `self.insertPropertyName`. Other functions within the class can also be called this way, as `self.insertFunctionName`. Additionally, all functions within a class can require other arguments as per normal function declaration.
+Functions in classes must always have the first argument be `self`, or discarded with `_`. This allows any function within a class to access properties that have been set, by calling `self.insertPropertyName`. Other functions within the class can also be called this way, as `self.insertFunctionName(args)`. Additionally, all functions within a class can require other arguments as per normal function declaration.
 
 The `__init__` function is used as a constructor, and contains the code to execute upon an instance^ of the class being created. This can set any properties that you want to create or set when the class is created. Any other arguments for the `__init__` function will check for arguments parsed when creating an instance of the class.
 
