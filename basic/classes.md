@@ -29,7 +29,7 @@ class mathClass:
     #...
 ```
 
-### Defining with function "type"
+### Defining with function "type" (only use this for one-line Python)
 
 The `type()` function is useful for quickly defining classes, as it can create a class in one line. When using the `type()`^ function, 3 arguments are parsed: the name of the custom type, the type of the container, and the container. The name is a string that can be anything, and the container type is often set to `(object, )`, which encompasses all object types. The actual container contains the data of the class, and is most commonly typed as key-value pairs. Also note that the `type()` function returns the constructor, instead of making it universal. Therefore, you have to set a variable to the return of the function, to use it as a constructor.
 
